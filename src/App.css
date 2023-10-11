@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --dark-blue: #1d3557;
+  --blue: #457b9d;
+  --light-blue: #a8dadc;
+  --pale-green: #f1faee;
+  --matte-red: #e63946;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #909090;
+  transition: 0.2s all;
+}
+.logo:hover {
+  color: var(--dark-blue);
+  
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0.5rem 0 1rem;
+}
+
+.header-links {
+  display: flex;
+  column-gap: 40px;
+  margin: 0 auto;
+  transition: 0.2s all;
+}
+
+.header-link {
+  font-weight: 500;
+  color: var(--blue);
+}
+.header-link:hover {
+  color: var(--dark-blue);
+}
+.home {
+  background-image: url('/src/assets/takeoff.jpeg');
+  background-size: 100%;
+  filter: opacity(.9);
+}
